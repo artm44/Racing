@@ -1,0 +1,10 @@
+C:\Users\artpo\OneDrive\Рабочий стол\Учеба\ИТМО\ООП\Racing\bin\Debug\Racing.exe.config
+C:\Users\artpo\OneDrive\Рабочий стол\Учеба\ИТМО\ООП\Racing\bin\Debug\Racing.exe
+C:\Users\artpo\OneDrive\Рабочий стол\Учеба\ИТМО\ООП\Racing\bin\Debug\Racing.pdb
+C:\Users\artpo\OneDrive\Рабочий стол\Учеба\ИТМО\ООП\Racing\obj\Debug\Racing.csproj.AssemblyReference.cache
+C:\Users\artpo\OneDrive\Рабочий стол\Учеба\ИТМО\ООП\Racing\obj\Debug\Racing.Form1.resources
+C:\Users\artpo\OneDrive\Рабочий стол\Учеба\ИТМО\ООП\Racing\obj\Debug\Racing.Properties.Resources.resources
+C:\Users\artpo\OneDrive\Рабочий стол\Учеба\ИТМО\ООП\Racing\obj\Debug\Racing.csproj.GenerateResource.cache
+C:\Users\artpo\OneDrive\Рабочий стол\Учеба\ИТМО\ООП\Racing\obj\Debug\Racing.csproj.CoreCompileInputs.cache
+C:\Users\artpo\OneDrive\Рабочий стол\Учеба\ИТМО\ООП\Racing\obj\Debug\Racing.exe
+C:\Users\artpo\OneDrive\Рабочий стол\Учеба\ИТМО\ООП\Racing\obj\Debug\Racing.pdb
