@@ -13,14 +13,14 @@ namespace Racing.Model.Classes.Grounds
         public override void Reset()
         {
             base.Reset();
-            Pace = 30;
+            Pace = 16;
             TimeToRest = 0;
             TimeOfRest = 0;
         }
 
-        public override void Update() //Constant
+        protected override int NewTimeOfRest()
         {
-            
+            return TimeOfRest;
         }
     }
 }

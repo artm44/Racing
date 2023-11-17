@@ -38,6 +38,7 @@ namespace Racing
             this.labelType = new System.Windows.Forms.Label();
             this.labelChoose = new System.Windows.Forms.Label();
             this.labelChoosen = new System.Windows.Forms.Label();
+            this.labelHelper = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // buttonRace
@@ -135,11 +136,22 @@ namespace Racing
             this.labelChoosen.TabIndex = 8;
             this.labelChoosen.Text = "Choosen transport";
             // 
+            // labelHelper
+            // 
+            this.labelHelper.AutoSize = true;
+            this.labelHelper.Location = new System.Drawing.Point(256, 437);
+            this.labelHelper.Name = "labelHelper";
+            this.labelHelper.Size = new System.Drawing.Size(277, 17);
+            this.labelHelper.TabIndex = 9;
+            this.labelHelper.Text = "Click twice to move the racer to another list";
+            this.labelHelper.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(782, 453);
+            this.Controls.Add(this.labelHelper);
             this.Controls.Add(this.labelChoosen);
             this.Controls.Add(this.labelChoose);
             this.Controls.Add(this.labelType);
@@ -179,6 +191,7 @@ namespace Racing
         private System.Windows.Forms.Label labelType;
         private System.Windows.Forms.Label labelChoose;
         private System.Windows.Forms.Label labelChoosen;
+        private System.Windows.Forms.Label labelHelper;
     }
 }
 

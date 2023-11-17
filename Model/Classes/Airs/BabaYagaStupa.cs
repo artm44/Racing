@@ -17,10 +17,9 @@ namespace Racing.Model.Classes.Airs
             Acceleration = 50;
         }
 
-        public override void Update()
+        protected override int NewAcceleration()
         {
-            Pace += Acceleration;
-            Acceleration = Acceleration - Distance >= 0 ? Acceleration - Distance : 0; //Linear 
+            return Acceleration - Distance >= 0 ? Acceleration - Distance : 0; //Linear 
         }
     }
 }

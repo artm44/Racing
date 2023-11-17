@@ -17,6 +17,9 @@ namespace Racing.Model.Classes.Airs
             Acceleration = 0;
         }
 
-        public override void Update() {} //Constant
+        protected override int NewAcceleration()
+        {
+            return Acceleration; //Constant 
+        }
     }
 }

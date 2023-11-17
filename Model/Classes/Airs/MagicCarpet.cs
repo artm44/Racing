@@ -18,10 +18,9 @@ namespace Racing.Model.Classes.Airs
             Acceleration = 0;
         }
 
-        public override void Update()
+        protected override int NewAcceleration()
         {
-            Pace += Acceleration;
-            Acceleration = (int)Math.Exp(Distance / 10); //Exponental 
+            return (int)Math.Exp(Distance / 10); //Exponental  
         }
     }
 }

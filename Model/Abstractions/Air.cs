@@ -2,6 +2,13 @@
 {
     abstract class Air : Transport
     {
-        public int Acceleration { get; protected set; }
+        protected int Acceleration { get; set; }
+
+        public override void Update()
+        {
+            Pace += Acceleration;
+            Acceleration = NewAcceleration();
+        }
+        protected abstract int NewAcceleration();
     }
 }
