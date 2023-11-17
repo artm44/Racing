@@ -1,6 +1,4 @@
 ﻿using Racing.Model.Abstractions;
-using System;
-using System.Collections.Generic;
 
 namespace Racing.Model.Classes.Airs
 {

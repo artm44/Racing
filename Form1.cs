@@ -4,12 +4,6 @@ using Racing.Model.Classes.Airs;
 using Racing.Model.Classes.Grounds;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Racing
@@ -82,11 +76,12 @@ namespace Racing
                 return;
             }
             race.SimulateRace();
-            string winners = "";
+            string winners = string.Empty;
             foreach (var item in race.Winners)
             {
-                winners = string.Concat(winners, item.ToString() + '\n');
+                winners += item.ToString() + ",\n";
             }
+            winners = winners.Remove(winners.Length - 2);
             MessageBox.Show("Winners:\n" + winners, "Result");
         }
 
